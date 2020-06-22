@@ -1,0 +1,28 @@
+.header {
+  padding: 10px 0px 0px 20px;
+
+  &__nav {
+    &__list {
+      display: flex;
+      flex-direction: row;
+      &__item {
+        &__drag__handle {
+          flex: 0 1 48px;
+        }
+        &__website__name {
+          flex: 0 1 100px;
+          margin: 3px;
+          font-weight: bold;
+        }
+        &__search {
+          flex: 0 1 300px;
+          background: #f8f8f7;
+          border-radius: 0.5em;
+        }
+      }
+    }
+  }
+}
+.material-icons {
+  padding: 1px 10px;
+}

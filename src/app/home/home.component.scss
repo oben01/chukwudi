@@ -1,0 +1,39 @@
+.delivery_img_container
+{
+    padding-top: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    h1{
+        flex: 0 1 51%;
+        margin:0px;
+    }
+    .button {
+        display: flex;
+        padding: 10px 10px ;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #FB6D3A;
+        border: none;
+        border-radius: 1.25em;
+        text-decoration: none;
+      }
+      
+      .button:hover {
+      background-color: darken( #FB6D3A, 10);
+      }
+      
+      .button:active {
+        background-color: darken( #FB6D3A, 20);
+      }
+
+}
+
+.material-icons {
+    vertical-align: middle;
+    margin-right: 5px;
+  }

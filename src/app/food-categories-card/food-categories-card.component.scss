@@ -1,18 +1,22 @@
 .card {
   width: 75px;
   height: 120px;
-  background: #fcd561;
+  background: white;
   border-radius: 2.7em;
   color: black;
   text-align: center;
+  &:hover {
+    background: darken(#fcd561, 10);
+  }
 }
 
 .card-container {
   width: 50px;
   height: 50px;
-  margin: 13px;
+  margin: 10px;
   background: white;
   border-radius: 50%;
+  border: solid grey;
   display: inline-block;
 }
 h4 {

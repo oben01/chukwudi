@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "chukwudi"
+    }
+  },
+  "defaultProject": "chukwudi",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -18,6 +18,14 @@
           flex: 0 1 300px;
           background: #f8f8f7;
           border-radius: 0.5em;
+          display:flex;
+          input{
+            flex: 0 1 300px;
+            background: #f8f8f7;
+            border-radius: 0.5em;
+            border-style: none;
+            border-radius: 0.5em;
+          }
         }
       }
     }

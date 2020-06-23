@@ -1,0 +1,33 @@
+
+.food-categories-main-container{
+    display: flex;
+    background: #FCD561;
+    border-radius: 2.7em;
+    width: 75px;
+    height: 120px;
+    z-index: 1;
+    text-decoration: none;
+    color: black;
+}
+.food-categories-img-container{
+    background: white;
+    width: 100px;
+    height: 50px;
+    margin: 9px;
+    border-radius: 2em;
+    border: solid grey;
+    .food-categories-img{
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        border-radius: 2em;
+
+    }
+
+    .food-categories-title
+    {
+        text-align: center;
+        padding-top: 10px;
+
+    }
+}

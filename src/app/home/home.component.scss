@@ -7,10 +7,17 @@
     flex-direction: row;
     padding-top: 30px;
     h1{
-        flex: 0 1 51%;
         margin:0px;
+        margin-right: 10px;
+        
+    }
+    img{
+        vertical-align: middle;
+        margin-right: 425px;
+        margin-top: 10px;
     }
     .button {
+        
         display: flex;
         padding: 10px 10px ;
         text-align: center;

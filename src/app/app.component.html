@@ -1,14 +1,10 @@
 <app-header></app-header>
 <app-home></app-home>
-<div class="card-container">
-  <app-food-categories-card class="card"></app-food-categories-card>
-  <app-food-categories-card class="card"></app-food-categories-card>
-  <app-food-categories-card class="card"></app-food-categories-card>
-  <app-food-categories-card class="card"></app-food-categories-card>
-  <app-food-categories-card class="card"></app-food-categories-card>
-  <app-food-categories-card class="card"></app-food-categories-card>
-  <app-food-categories-card class="card"></app-food-categories-card>
-  <app-food-categories-card class="card"></app-food-categories-card>
+<div class="card-container" *ngFor="let foodCategory of FoodCategories">
+  <app-food-categories-card
+    [foodCategories]="foodCategory"
+    class="card"
+  ></app-food-categories-card>
 </div>
 
 <router-outlet></router-outlet>

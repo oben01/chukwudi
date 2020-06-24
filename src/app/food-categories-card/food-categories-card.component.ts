@@ -16,7 +16,7 @@ export class FoodCategoriesCardComponent implements OnInit {
 
   ngOnInit(): void { }
 
-  enableDisableRule(job) {
+  enableDisableRule() {
     this.toggle = !this.toggle;
   }
 }

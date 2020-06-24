@@ -1,0 +1,27 @@
+.main-container{
+    background: grey;
+    width: 15%;
+    color: black;
+    img
+    {
+        width:150%;
+        border-radius: 1em;
+    }
+}
+
+.restaurant-details{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+    p{
+        margin:0;
+        margin-top: 2px;
+    }
+
+}
+
+.material-icons {
+    vertical-align: middle;
+
+  }

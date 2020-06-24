@@ -3,11 +3,9 @@
 
 <div class="card-container">
   <div *ngFor="let foodCategory of FoodCategories">
-    <app-food-categories-card
-      class="card"
-      [foodCategories]="foodCategory"
-    ></app-food-categories-card>
+    <app-food-categories-card class="card" [foodCategories]="foodCategory"></app-food-categories-card>
   </div>
 </div>
 
+<app-restaurant-card></app-restaurant-card>
 <router-outlet></router-outlet>

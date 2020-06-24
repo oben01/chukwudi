@@ -1,11 +1,8 @@
-<div class="card">
+<div class="card" [style.background-color]="toggle ? '#fcd561' : 'white'" (click)="enableDisableRule()">
   <a href="#">
     <div class="card-container">
       <div class="card-container-img">
-        <img
-          src="{{ foodCategories.imgPath }}"
-          style="height: 100%; width: 100%; object-fit: contain;"
-        />
+        <img src="{{ foodCategories.imgPath }}" style="height: 100%; width: 100%; object-fit: contain;" />
       </div>
     </div>
     <h4>

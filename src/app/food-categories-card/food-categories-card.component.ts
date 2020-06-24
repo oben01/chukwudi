@@ -7,9 +7,16 @@ import { FoodCategories } from '../food-categories';
   styleUrls: ['./food-categories-card.component.scss'],
 })
 export class FoodCategoriesCardComponent implements OnInit {
+
   @Input() foodCategories: FoodCategories;
+  toggle: boolean;
+  constructor() {
+    this.toggle = false;
+  }
 
-  constructor() {}
+  ngOnInit(): void { }
 
-  ngOnInit(): void {}
+  enableDisableRule(job) {
+    this.toggle = !this.toggle;
+  }
 }

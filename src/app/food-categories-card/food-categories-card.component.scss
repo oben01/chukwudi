@@ -1,13 +1,9 @@
 .card {
   width: 75px;
   height: 120px;
-  background: white;
   border-radius: 2.7em;
   color: black;
   text-align: center;
-  &:hover {
-    background: darken(#fcd561, 10);
-  }
 }
 
 .card-container {
